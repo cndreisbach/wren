@@ -1,0 +1,11 @@
+# <%= name.camelize %>
+
+TODO: Describe the purpose of this program.
+
+## Usage
+
+TODO: Describe how to start this program.
+
+To run the tests, run `rake` on the command line. `rake` is a Ruby program that
+executes tasks from a file called a `Rakefile`. It is often used by Ruby
+libraries to run tests and other tasks.

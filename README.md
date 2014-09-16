@@ -1,6 +1,7 @@
 # Wren
 
-TODO: Write a gem description
+Creates very simple Ruby projects not intended to be gems, but just
+to be well-designed programs.
 
 ## Installation
 
@@ -18,7 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use `wren <project_name>` on the command line to create a new simple
+Ruby project.
 
 ## Contributing
 
