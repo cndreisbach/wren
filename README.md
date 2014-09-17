@@ -19,8 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
-Use `wren <project_name>` on the command line to create a new simple
-Ruby project.
+Use `wren new <project_name>` on the command line to create a new simple Ruby
+project.
 
 ## Contributing
 
