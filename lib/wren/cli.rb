@@ -1,4 +1,5 @@
 require 'wren/generator'
+require "active_support/core_ext/string"
 
 module Wren
   class CLI < Thor
@@ -11,6 +12,7 @@ module Wren
                   :desc => "Generates an executable file for your project."
 
     def new(project)
+      project = project.underscore
       invoke(Generator, [project], options)
     end
   end

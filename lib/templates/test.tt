@@ -1,7 +1,11 @@
 require "minitest/autorun"
 require "<%= name %>"
 
+<% if Gem::Version.new(Minitest::VERSION) >= Gem::Version.new("5") -%>
+class <%= name.camelize %>Test < Minitest::Test
+<% else -%>
 class <%= name.camelize %>Test < MiniTest::Unit::TestCase
+<% end -%>
   def test_first_test
     assert false, "Please add a test here"
   end

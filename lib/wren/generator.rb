@@ -1,6 +1,7 @@
 require "thor"
 require "active_support/core_ext/string"
 require "pathname"
+require "minitest"
 
 module Wren
   class Generator < Thor::Group
